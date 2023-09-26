@@ -1,6 +1,6 @@
-import { getAllImgDespeges  } from "./storage/v3";
+import { getAllImgDespeges  } from "./storage/v3.js";
 
 //url que guarda las url
 const urlDespeges = "https://api.spacexdata.com/v3/launches"
 
-getAllImgDespeges(urlDespeges)
+console.log(await getAllImgDespeges(urlDespeges))
